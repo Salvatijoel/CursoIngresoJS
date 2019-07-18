@@ -1,17 +1,24 @@
 function mostrar()
 {
+	var numero ;
+	var positivo = 0;
+	var negativo = 0;
 
-	var contador=0;
-	//declarar contadores y variables 
-	
-	var respuesta="si";
+	var contPos = 0;
+	var acumPositivos = 0 ;
+	var contNegativos = 0;
+	var acumNegativos = 0;
 
-	while(respuesta!="no")
-	{
+
+
+
+	do {
+	numero = parseInt(prompt ("Ingrese un numero"));
 		
-	
+		if (numero > 0)
+			positivo = numero 
+			
 	}
-
 
 
 
