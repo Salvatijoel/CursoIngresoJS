@@ -15,13 +15,15 @@ function mostrar()
 var numero ;
 var maximo = 0;
 var minimo = 0;
+var flag = 0;
 
 	do {
 		numero = parseInt(prompt("Ingrese un numero"));
 		
 			if (numero > maximo || flag == 0) {
 				 
-				 maximo = numero; 
+				 maximo = numero;
+				
 										  }
 		 
 
@@ -32,11 +34,11 @@ var minimo = 0;
 										  }
 
 										
-		seguir = prompt ("Quiere ingresar otro numero?");
+		seguir = prompt ("Si desea ingresar otro numero ingrese s ");
 	} while (seguir == 's');
 
-	document.getElementById("minimo").value=minimo
-	document.getElementById('maximo').value=maximo
+	document.getElementById("minimo").value=minimo;
+	document.getElementById('maximo').value=maximo;
 
 
 

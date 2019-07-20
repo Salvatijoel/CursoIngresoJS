@@ -6,25 +6,25 @@ function mostrar()
 
 	var positivo=0;
 	var negativo=1;
-	var contadorNegativos=0; //
+	var contadorNegativos=0; 
 	var numero ;
-	var seguir ;
+	var seguir ; 
 	// no hace falta inicializar var seguir = 's'
 
 		do { //transforme el while a dowhile 
 
 			numero = parseInt (prompt("Ingrese un numero")); 
-
-			while ( isNaN(numero)) {
+		}
+			while ( isNaN(numero));
 				
 				alert ("No es un numero") ;
 				numero = parseInt (prompt("Ingrese un numero")); 
-			}
+			
 
 			//uso if para hacer lo pedido de positivos y negativos 
 
 				if (numero >= 0) {
-
+			
 			  postivo = positivo + numero ;
 			  // postivo += numero 
 			  		
@@ -58,4 +58,4 @@ document.getElementById('producto').value=negativo;
 
 
 
-//FIN DE LA FUNCION
+		}//FIN DE LA FUNCION
